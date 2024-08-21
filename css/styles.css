@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: white;
+    color: #2A363B;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+/* Estilos de la sección de habilidades */
+#skills ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+#skills ul li {
+    background-color: #99B898;
+    color: #2A363B;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin: 10px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#skills ul li:hover {
+    background-color: #E84A5F;
+    color: #FECEA8;
+}
+
+/* Estilos de los formularios */
+#contact-form .form-control {
+    margin-bottom: 15px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* Paleta de colores personalizada */
+.bg-personalizado{
+    background: #2A363B;
+    color: #FECEA8;
+}
+
+.nv-personalizado{
+    background: #FECEA8;
+    color: #99B898;
+}
+
+.h2-personalizado{
+    color: #99B898;
+}
+
+.p-personalizado{
+    color: #2A363B;
+}
+
+.btn-personalizado{
+    color: #FECEA8;
+    background: #E84A5F;
+}
+
+.btn-personalizado:hover{
+    color: #2A363B;
+    background: #FECEA8;
+}
+
+/* Estilos del proyecto */
+.card {
+    border: none;
+    background-color: #FECEA8;
+    color: #2A363B;
+}
+
+.card-title {
+    color: #E84A5F;
+}
+
+.card-text {
+    color: #2A363B;
+}
+
+.card img {
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #2A363B;
+    color: #FECEA8;
+}
