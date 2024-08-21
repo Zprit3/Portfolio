@@ -7,6 +7,11 @@
     <title>Isaac Mora Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -15,7 +20,7 @@
         <p class="lead p2-personalizado">Desarrollador Fullstack | Analista Programador</p>
     </header>
 
-    <nav class="navbar navbar-expand-lg navbar-light nv-personalizado">
+    <nav class="navbar navbar-expand-lg navbar-light nv-personalizado fixed-top">
         <div class="container">
             <a class="navbar-brand p-personalizado" href="#">Portafolio</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -58,11 +63,12 @@
         <div class="container">
             <h2 class="text-center h2-personalizado">Habilidades</h2>
             <ul class="list-unstyled text-center">
-                <li>HTML, CSS, JavaScript</li>
+                <li>HTML5, CSS, JavaScript</li>
                 <li>Bootstrap, jQuery</li>
-                <li>Java, C# con .NET</li>
+                <li>Java, C# (.NET)</li>
                 <li>Bases de datos: Oracle SQL, MySQL, SQLite</li>
-                <li>Flutter, Firebase</li>
+                <li>Flutter</li>
+                <li>Firebase</li>
                 <li>Diagramación de sistemas</li>
                 <li>Metodologías de trabajo: AGILE, SCRUM</li>
                 <li>Mantenimiento de sistemas: Windows, GNU/Linux</li>
@@ -70,40 +76,44 @@
         </div>
     </section>
 
-
+    <!-- De momento solo agregare elementos para rellenar -->
     <section id="projects" class="container py-5">
         <h2 class="text-center h2-personalizado">Proyectos</h2>
         <div class="row">
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <a href="https://github.com/Zprit3" target="_blank" class="stretched-link"></a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/640px-GitHub_Invertocat_Logo.svg.png"
+                        class="card-img-top" alt="Proyecto: REPO">
                     <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <h5 class="card-title">Github repository</h5>
+                        <p class="card-text">Acceso a la presentación de mi github</p>
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <a href="https://github.com/Zprit3" target="_blank" class="stretched-link"></a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/640px-GitHub_Invertocat_Logo.svg.png"
+                        class="card-img-top" alt="Proyecto: REPO">
                     <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <h5 class="card-title">Github repository</h5>
+                        <p class="card-text">Acceso a la presentación de mi github</p>
                     </div>
                 </div>
             </div>
-
             <div class="col-md-4">
                 <div class="card">
-                    <img src="img/proyecto1.jpg" class="card-img-top" alt="Proyecto 1">
+                    <a href="https://github.com/Zprit3" target="_blank" class="stretched-link"></a>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/640px-GitHub_Invertocat_Logo.svg.png"
+                        class="card-img-top" alt="Proyecto: REPO">
                     <div class="card-body">
-                        <h5 class="card-title">Proyecto 1</h5>
-                        <p class="card-text">Descripción breve del proyecto.</p>
+                        <h5 class="card-title">Github repository</h5>
+                        <p class="card-text">Acceso a la presentación de mi github</p>
                     </div>
                 </div>
             </div>
-            <!-- repetir col para cada proyecto -->
+            <!-- Repetir col para cada proyecto -->
         </div>
     </section>
 
@@ -135,7 +145,7 @@
             <div class="row">
                 <!-- Datos de contacto -->
                 <div class="col-md-6">
-                    <h2 class="h2-personalizado text-center">Datos de Contacto</h2>
+                    <h2 class="h2-personalizado text-center">Otros medios</h2>
                     <p class="p-personalizado">Tambien puedes contactarme a través de los siguientes medios:</p>
                     <ul class="list-unstyled">
                         <li><strong>Email:</strong> Isaacmorap@outlook.com</li>
@@ -159,7 +169,7 @@
         <p>&copy; 2024 Isaac Mora. Distribuido bajo la licencia GNU General Public License.</p>
     </footer>
 
-    <!-- Bootstrap JS y jQuery -->
+    <!-- Bootstrap, JS y jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="./js/scripts.js"></script>

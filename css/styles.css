@@ -1,9 +1,9 @@
 /* Estilos generales */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    font-family: "Roboto Mono", monospace;  line-height: 1.6;
     background-color: white;
     color: #2A363B;
+    padding-top: 56px; /*esto existe para evitar que el navbar tape el header*/
 }
 
 h2 {
