@@ -1,3 +1,2 @@
 # Portfolio
-Portafolio requerido como practica  de consolidació
-n m2
+Portafolio requerido como practica  de consolidación m2
